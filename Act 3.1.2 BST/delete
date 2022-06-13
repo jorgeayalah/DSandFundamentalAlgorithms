@@ -1,0 +1,25 @@
+1. Borrar Nodo Hoja (No tiene Hijos)
+
+1. Buscar Nodo
+2. Si lo encuentra (El primero que encuentra)
+    3. El apuntador del padre hacia el nodo a borrar lo hace igual a Nulo
+    4. Borra el nodo
+    Nota. si el nodo a borrar es root hacer root igual a Nulo
+
+2. Borrar Nodo con un hijo 
+
+1. Buscar Nodo
+2. Si lo encuentra
+    3. El apuntador del padre hacie el nodo a borrar 
+    es igual al hijo del nodo a borrar.
+    4. Borra el nodo
+    Nota si el nodo a borrar es root, root ahora el hijo.
+
+3. Borrar nodo que tiene 2 Hijos
+
+1. Buscar Nodo
+2. Si lo encuentra
+    3. Buscar el nodo más grande en el subarbol del lado izquierdo
+    4. El valor del nodo a borrar va a ser igual al valor del nodo
+    más grande 
+    5. Borrar el nodo más grande en el subarbol del lado izquierdo
